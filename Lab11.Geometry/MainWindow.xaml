@@ -5,26 +5,33 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Lab11.Geometry"
         mc:Ignorable="d"
-        Title="MainWindow" Height="250" Width="250">
-    <StackPanel>
-        <Path Fill="Red" Stroke="Black">
-            <Path.Data>
-                <CombinedGeometry>
-                    <CombinedGeometry.Geometry1>
-                        <GeometryGroup>
-                            <EllipseGeometry RadiusX="100" RadiusY="100" Center="125,105"/>
-                            <EllipseGeometry RadiusX="80" RadiusY="80" Center="125,105"/>
-                        </GeometryGroup>
-                    </CombinedGeometry.Geometry1>
-                    <CombinedGeometry.Geometry2>
-                        <RectangleGeometry Rect="155,-105,20,180">
-                            <RectangleGeometry.Transform>
-                                <RotateTransform Angle="45"/>
-                            </RectangleGeometry.Transform>
-                        </RectangleGeometry>
-                    </CombinedGeometry.Geometry2>
-                </CombinedGeometry>
-            </Path.Data>
+        Title="MainWindow" Height="500" Width="800">
+    <Grid>
+        <Path Data="M283.5,348.65789 C270.7162,322.10693 269.24055,307.0274 272.3615,295.97545 275.50449,284.84544 283.30927,277.8001 288.92105,267.23674 300.10526,246.18411 304.71037,243.55231 290.89476,227.7628" HorizontalAlignment="Left" Height="121.895" Margin="270.968,227.763,0,0" Stretch="Fill" Stroke="#FF046300" VerticalAlignment="Top" Width="29.474" StrokeThickness="5"/>
+        <Ellipse HorizontalAlignment="Left" Height="45.895" Margin="265.079,194.868,0,0" Stroke="#FF101011" VerticalAlignment="Top" Width="48.026" RenderTransformOrigin="-0.123,-0.175">
+            <Ellipse.Fill>
+                <RadialGradientBrush GradientOrigin="0.772,0.257">
+                    <GradientStop Color="White" Offset="0.136"/>
+                    <GradientStop Color="#FFFECB19" Offset="0.5"/>
+                </RadialGradientBrush>
+            </Ellipse.Fill>
+        </Ellipse>
+        <Path Data="M278.25,197.25 C256.25,176.75 247,172.75 255.25,166.25 263.5,159.75 268.99987,174.5 282.25006,195.75" HorizontalAlignment="Left" Height="33.549" Margin="252.268,164.701,0,0" Stretch="Fill" Stroke="#FF101011" VerticalAlignment="Top" Width="30.982">
+            <Path.Fill>
+                <RadialGradientBrush GradientOrigin="0.259,0.236" RadiusY="0.427" RadiusX="0.427" Center="0.034,0.477">
+                    <GradientStop Color="White" Offset="0.107"/>
+                    <GradientStop Color="#FFD5F8F9" Offset="0.443"/>
+                </RadialGradientBrush>
+            </Path.Fill>
         </Path>
-    </StackPanel>
+        <Path Data="M302.25429,235.18955 C331.50429,263.18955 354.60367,253.13385 343.53582,247.8818 307.7635,230.90671 309.73287,229.49997 309.73287,229.49997" HorizontalAlignment="Left" Height="29.019" Margin="302.5,229.5,0,0" Stretch="Fill" Stroke="#FF101011" VerticalAlignment="Top" Width="37.858">
+            <Path.Fill>
+                <RadialGradientBrush GradientOrigin="0.833,0.667" RadiusY="0.427" RadiusX="0.427" Center="0.608,0.908">
+                    <GradientStop Color="White" Offset="0.107"/>
+                    <GradientStop Color="#FFD5F8F9" Offset="0.443"/>
+                </RadialGradientBrush>
+            </Path.Fill>
+        </Path>
+        <Path Data="M233.75,298.25 C233.75,298.25 238.25,308.25 247.25,311.25 256.25,314.25 279.5,309 279.5,309 279.5,309 263.75,310.99994 262.5,306.49996 261.25,301.99998 259,289.75004 250.75,293.00002 242.5,296.25001 247.75,303.25013 240.75,300.75019 233.75,298.25024 233.75,298.25 233.75,298.25 z" HorizontalAlignment="Left" Height="20.718" Margin="233.75,292.458,0,0" Stretch="Fill" Stroke="#FF046400" VerticalAlignment="Top" Width="46.75" Fill="#FF719E0F" StrokeThickness="3"/>
+    </Grid>
 </Window>
